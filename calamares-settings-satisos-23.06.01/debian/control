@@ -1,0 +1,29 @@
+Source: calamares-settings-satisos
+Section: utils
+Priority: optional
+Maintainer: rkarsnk <00_g1thub01@rkarsnk.net>
+Build-Depends: debhelper-compat (= 13), libglib2.0-bin
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://salsa.debian.org/live-team/calamares-settings-debian
+Vcs-Git: https://salsa.debian.org/live-team/calamares-settings-debian-packaging.git
+Vcs-Browser: https://salsa.debian.org/live-team/calamares-settings-debian-packaging
+
+Package: calamares-settings-satisos
+Architecture: all
+Depends: calamares,
+         cryptsetup,
+         keyutils,
+         pkexec,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         ${misc:Depends}
+Provides: calamares-settings
+Description: Satis OS theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.

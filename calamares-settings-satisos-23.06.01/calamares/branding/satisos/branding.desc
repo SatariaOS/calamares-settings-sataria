@@ -1,0 +1,37 @@
+---
+componentName:	satisos
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         Satis OS
+    shortProductName:    Satis
+    version:             1.0.0
+    shortVersion:        1.0
+    versionedName:       Satis OS 1.0.0
+    shortVersionedName:  Satis OS 1.0
+    bootloaderEntryName: Linux
+    productUrl:          https://satis-os.github.io/
+    supportUrl:          https://satis-os.github.io/
+    knownIssuesUrl:      https://github.com/SatisOS/Satis-OS/issues 
+    releaseNotesUrl:     https://satis-os.github.io/
+    donateUrl:           https://satis-os.github.io/
+
+images:
+    productLogo:         "satisos-logo.png"
+    productIcon:         "satisos-logo.png"
+    productWelcome:      "welcome.png"
+    # productWallpaper:  "wallpaper.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
+
+slideshowAPI: 2

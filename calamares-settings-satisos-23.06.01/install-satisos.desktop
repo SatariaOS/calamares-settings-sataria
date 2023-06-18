@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Satis OS
+GenericName=Calamares Installer
+Exec=install-satisos
+Comment=Calamares — Installer for  Satis OS Live
+Keywords=calamares;system;install;satisos;installer
+Icon=install-satisos
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True
