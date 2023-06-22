@@ -14,14 +14,14 @@ TAR=${PKG}.orig.tar.gz
 
 deb: tarball
 	cd ${DIR} && debuild -uc -us
-	#rm -rf ${DIR}/debian/calamares-settings-satisos
-	rm -rf ${DIR}/debian/calamares-settings-satisos.substvars
-	rm -rf ${DIR}/debian/.debhelper
-	rm -rf ${DIR}/debian/files
 
 tarball: clean
 	tar cvzf ${TAR} ${DIR}
 
 clean:
 	rm -f ${TAR} ${PKGNAME}*
+	rm -rf ${DIR}/debian/calamares-settings-satisos
+	rm -rf ${DIR}/debian/calamares-settings-satisos.substvars
+	rm -rf ${DIR}/debian/.debhelper
+	rm -rf ${DIR}/debian/files
 
